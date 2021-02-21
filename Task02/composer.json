@@ -1,0 +1,19 @@
+{
+    "name": "HippoTeenUser/task01",
+    "type": "project",
+    "authors": [{
+        "name": "IvanLihoradov",
+        "email": "ivan098123@gmail.com"
+    }],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
