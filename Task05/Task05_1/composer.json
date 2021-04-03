@@ -1,0 +1,19 @@
+{
+    "name": "ivan/task05_1",
+    "description": "task05_1",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ivan Lihoradov",
+            "email": "ivan098123@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
